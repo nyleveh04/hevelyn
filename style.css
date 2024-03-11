@@ -26,11 +26,11 @@ body {
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-ativoo);
     color: var(--branco);
-    display: fle;
+    display: flex;
     justify-content: center;
     padding: 1em;
     font-size: 18px;
-    align-items: center;
+
     width: 100%;
 
 border-bottom: 4px solid var(--botao-ativo); 
@@ -58,7 +58,12 @@ border-top: none;
             border-radius: 0 40px 0 0;
         }
     }
-   
+    .ativo{
+        background-color: var(--botao-ativo);
+        border-bottom: 4px solid var(--verde);
+    
+    
+        
 
 
 
